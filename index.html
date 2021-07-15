@@ -21,10 +21,28 @@
                 <h1>S2 CSEB TIME TABLE</h1>
             </div>
         </div>
+        <div class="row dp_dwn">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-2 col-md-2 d-flex justify-content-center">
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Day Selector
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" onclick="monday()">Monday</a></li>
+                      <li><a class="dropdown-item" onclick="tueday()">Tuesday</a></li>
+                      <li><a class="dropdown-item" onclick="wednesday()">Wednessday</a></li>
+                      <li><a class="dropdown-item" onclick="thursday()">Thursday</a></li>
+                      <li><a class="dropdown-item" onclick="friday()">Friday</a></li>
+                      <li><a class="dropdown-item" onclick="saturday()">Saturday</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
         <div class="row first">
             <div class="col-lg-1 col-md-1"></div>
             <div class="col-lg-2 col-md-2 d-flex justify-content-center">
-                <div class="btn-grp">
+                <div class="btn-grp" id="mon">
                     <tr>
                         <button class="btn btn-md btn-dk day">MONDAY</button>
                     </tr><br>
@@ -41,7 +59,7 @@
             </div>
             <div class="col-lg-2 col-md-2"></div>
             <div class="col-lg-2 col-md-2 d-flex justify-content-center">
-                <div class="btn-grp">
+                <div class="btn-grp" id="tue">
                     <tr>
                         <button class="btn btn-md btn-dk day">TUESDAY</button>
                     </tr><br>
@@ -60,7 +78,7 @@
             </div>
             <div class="col-lg-2 col-md-2"></div>
             <div class="col-lg-2 col-md-2 d-flex justify-content-center">
-                <div class="btn-grp">
+                <div class="btn-grp" id="wed">
                     <tr>
                         <button class="btn btn-md btn-dk day">WEDNESDAY</button>
                     </tr><br>
@@ -82,7 +100,7 @@
         <div class="row second">
             <div class="col-lg-1 col-md-1"></div>
             <div class="col-lg-2 col-md-2 d-flex justify-content-center">
-                <div class="btn-grp">
+                <div class="btn-grp" id="thu">
                     <tr>
                         <button class="btn btn-md btn-dk day">THURSDAY</button>
                     </tr><br>
@@ -101,7 +119,7 @@
             </div>
             <div class="col-lg-2 col-md-2"></div>
             <div class="col-lg-2 col-md-2 d-flex justify-content-center">
-                <div class="btn-grp">
+                <div class="btn-grp" id="fri">
                     <tr>
                         <button class="btn btn-md btn-dk day">FRIDAY</button>
                     </tr><br>
@@ -121,7 +139,7 @@
             </div>
             <div class="col-lg-2 col-md-2"></div>
             <div class="col-lg-2 col-md-2 d-flex justify-content-center">
-                <div class="btn-grp">
+                <div class="btn-grp" id="sat">
                     <tr>
                         <button class="btn btn-md btn-dk day">SATURDAY</button>
                     </tr><br>

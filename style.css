@@ -52,6 +52,9 @@ body {
     color: #33a8b7;
 }
 
+.dp_dwn {
+    display: none;
+}
 @media only screen and (max-width: 768px) {
     .heading {
         font-size: 50px;
@@ -74,5 +77,8 @@ body {
     }
     .day {
         margin-top: 40px;
+    }
+    .dp_dwn {
+        display: block;
     }
 }
