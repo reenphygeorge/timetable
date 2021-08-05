@@ -1,5 +1,5 @@
 function chem_amt() {
-  window.open("https://meet.google.com/ryx-sftb-vkf", "_blank");
+  window.open("https://meet.google.com/uhu-gbvq-fhp", "_blank");
 }
 
 function chem_ash() {
@@ -11,15 +11,15 @@ function cp() {
 }
 
 function bee() {
-  window.open("https://meet.google.com/vng-peat-pbj", "_blank");
+  window.open("https://meet.google.com/pmc-sxhr-yrw", "_blank");
 }
 
 function bec() {
-  window.open("https://meet.google.com/tse-ncyr-njs", "_blank");
+  window.open("http://meet.google.com/tse-ncyr-njs", "_blank");
 }
 
 function maths() {
-  window.open("https://meet.google.com/euz-icfp-img", "_blank");
+  window.open("https://meet.google.com/wgm-jbym-emp", "_blank");
 }
 
 function eg() {

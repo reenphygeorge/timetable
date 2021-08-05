@@ -32,26 +32,6 @@ body {
 .btn-dk:hover {
     color: white;
 }
-.footer {
-    margin-top: 70px;
-    margin-bottom: 30px;
-}
-.footer h2 {
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace;
-    color: white;
-}
-.footeranc {
-    text-decoration: none;
-    color: white;
-    font-size: medium;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
-}
-.footeranc:hover {
-    color: #33a8b7;
-}
-
 .dp_dwn {
     display: none;
 }
@@ -68,12 +48,6 @@ body {
     }
     .first{
         margin-bottom: 0px;
-    }
-    .footer {
-        margin-top: 20px;
-    }
-    .footer h2 {
-        font-size: 15px;
     }
     .day {
         margin-top: 40px;
