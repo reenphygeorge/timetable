@@ -3,7 +3,7 @@ function chem_amt() {
 }
 
 function chem_ash() {
-  window.open("https://meet.google.com/uhu-gbvq-fhp", "_blank");
+  window.open("https://meet.google.com/spj-rroj-oaz ", "_blank");
 }
 
 function cp() {
